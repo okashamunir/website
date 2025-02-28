@@ -24,7 +24,7 @@ export default function About() {
           <div className="bg-white rounded-2xl p-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
             <div className="mb-8">
               <img
-                src="/assets/zohaibpic.jpeg"
+                src="/zohaibpic.jpeg"
                 alt="Zohaib"
                 className="rounded-2xl w-full h-96 object-cover"
               />
@@ -40,7 +40,7 @@ export default function About() {
           <div className="bg-white rounded-2xl p-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
             <div className="mb-8">
               <img
-                src="/assets/ahmadokasha.jpeg"
+                src="/ahmadokasha.jpeg"
                 alt="Ahmad Okasha"
                 className="rounded-2xl w-full h-96 object-cover"
               />
