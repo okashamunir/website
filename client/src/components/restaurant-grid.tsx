@@ -66,20 +66,21 @@ export default function RestaurantGrid() {
         {restaurants.map((restaurant) => (
           <Card 
             key={restaurant.name} 
-            className="bg-white border-2 border-black hover:shadow-lg transition-shadow overflow-hidden relative"
+            className="border-2 border-black hover:shadow-lg transition-shadow overflow-hidden relative h-72"
             style={{
               backgroundImage: `url(${restaurant.texture})`,
               backgroundSize: 'cover',
-              backgroundPosition: 'center'
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
             }}
           >
-            <div className="absolute inset-0 bg-white/80" /> {/* Overlay for better readability */}
-            <CardContent className="p-6 relative"> {/* relative to appear above the overlay */}
-              <div className="aspect-video flex items-center justify-center mb-4 bg-white/90 rounded-lg p-4">
+            <div className="absolute inset-0 bg-black/10" /> {/* Reduced opacity overlay */}
+            <CardContent className="p-6 relative h-full flex flex-col justify-center"> 
+              <div className="flex items-center justify-center mb-4">
                 <img
                   src={restaurant.logo}
                   alt={`${restaurant.name} logo`}
-                  className="h-full object-contain"
+                  className="h-24 object-contain"
                 />
               </div>
               <div className="text-center">

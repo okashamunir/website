@@ -11,9 +11,9 @@ export default function Navigation() {
         <Link href="/">
           <a className="mr-8 flex items-center space-x-2">
             <img 
-              src="/assets/dhoond.png" 
+              src="/assets/dhoondlogo.png" 
               alt="Dhoond"
-              className="h-8 w-auto"
+              className="h-10 w-auto" 
             />
           </a>
         </Link>
@@ -43,8 +43,8 @@ export default function Navigation() {
             </a>
           </Link>
         </div>
-        <div className="ml-auto">
-          <Button size="sm">Download App</Button>
+        <div className="ml-auto flex items-center">
+          <Button size="sm" className="ml-8">Download App</Button>
         </div>
       </div>
     </nav>
