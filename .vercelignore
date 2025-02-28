@@ -1,0 +1,10 @@
+server/
+*.ts
+*.json
+*.log
+node_modules/
+README.md
+.env
+.env.*
+.git/
+.gitignore 
