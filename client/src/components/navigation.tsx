@@ -11,7 +11,7 @@ export default function Navigation() {
         <Link href="/">
           <a className="mr-8 flex items-center space-x-2">
             <img 
-              src="/dhoondlogo.png" 
+              src="/assets/dhoondlogo.png" 
               alt="Dhoond"
               className="h-10 w-auto" 
             />
