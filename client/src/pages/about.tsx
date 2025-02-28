@@ -30,7 +30,7 @@ export default function About() {
               />
             </div>
             <h3 className="text-3xl font-bold mb-4">Zohaib</h3>
-            <h4 className="text-xl text-primary mb-4">Chief Financial Officer</h4>
+            <h4 className="text-xl text-primary mb-4">Co-Founder</h4>
             <p className="text-gray-600 leading-relaxed">
               An Economics student at LUMS, brings strategic financial insight and a results-driven approach to his role as CFO. Combining analytical skills with innovative thinking, he ensures financial operations align with organizational goals, fostering growth and sustainability.
             </p>
@@ -46,7 +46,7 @@ export default function About() {
               />
             </div>
             <h3 className="text-3xl font-bold mb-4">Ahmad Okasha</h3>
-            <h4 className="text-xl text-primary mb-4">Technical Lead</h4>
+            <h4 className="text-xl text-primary mb-4">Co-founder</h4>
             <p className="text-gray-600 leading-relaxed">
               A student at Goldsmiths, University of London, with a strong background in marketing, sales, and technical development. He plays a pivotal role in driving the company's growth by crafting innovative marketing strategies, building and managing client relationships, and overseeing the technical aspects of the business.
             </p>
