@@ -13,7 +13,9 @@ export default function HeroSection() {
             Dhoond makes it easy to discover and enjoy exclusive student discounts.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button size="lg">Download Now</Button>
+            <Button size="lg" asChild>
+              <a href="https://linktr.ee/Dhoond" target="_blank" rel="noopener noreferrer">Download Now</a>
+            </Button>
             <Button variant="ghost" size="lg">Learn More</Button>
           </div>
         </div>

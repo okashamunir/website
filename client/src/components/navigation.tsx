@@ -44,7 +44,9 @@ export default function Navigation() {
           </Link>
         </div>
         <div className="ml-auto flex items-center">
-          <Button size="sm" className="ml-8">Download App</Button>
+          <Button size="sm" className="ml-8" asChild>
+            <a href="https://linktr.ee/Dhoond" target="_blank" rel="noopener noreferrer">Download App</a>
+          </Button>
         </div>
       </div>
     </nav>
