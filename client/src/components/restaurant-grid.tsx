@@ -3,47 +3,47 @@ import { Card, CardContent } from "@/components/ui/card";
 const restaurants = [
   {
     name: "Brewbar",
-    logo: "/attached_assets/brewbar.png",
+    logo: "/assets/brewbar.png",
     discount: "20% off"
   },
   {
     name: "The Cracking Kernel",
-    logo: "/attached_assets/crackingkernel.png",
+    logo: "/assets/crackingkernel.png",
     discount: "15% off"
   },
   {
     name: "Hunza Den",
-    logo: "/attached_assets/hunzaden.png",
+    logo: "/assets/hunzaden.png",
     discount: "25% off"
   },
   {
     name: "Spud Chai",
-    logo: "/attached_assets/spudchai.png",
+    logo: "/assets/spudchai.png",
     discount: "20% off"
   },
   {
     name: "Stufd",
-    logo: "/attached_assets/stufd.png",
+    logo: "/assets/stufd.png",
     discount: "30% off"
   },
   {
     name: "Tadka Gali",
-    logo: "/attached_assets/tadkagali.png",
+    logo: "/assets/tadkagali.png",
     discount: "20% off"
   },
   {
     name: "Zaan",
-    logo: "/attached_assets/zaan.png",
+    logo: "/assets/zaan.png",
     discount: "15% off"
   },
   {
     name: "Dot",
-    logo: "/attached_assets/dot.png",
+    logo: "/assets/dot.png",
     discount: "25% off"
   },
   {
     name: "Zingo",
-    logo: "/attached_assets/zingo.png",
+    logo: "/assets/zingo.png",
     discount: "20% off"
   }
 ];
